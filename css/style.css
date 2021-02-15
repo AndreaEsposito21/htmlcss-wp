@@ -62,6 +62,7 @@ img {
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
+    color: gray;
 }
 
 /* Banner */
@@ -87,6 +88,11 @@ main {
     width: 100%;
 }
 
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .clearfix {
     
 }
@@ -109,20 +115,29 @@ main {
 
 .col-left, .col-right {
     width: 20%;
-    height: 600px;
 }
 
 .col-center {
-    width: 58%;
-    height: 600px;
-    margin: 0 1%;
+    width: 56%;
+    margin: 0 2%;
+}
+
+h4 {
+    margin: 20px 0;
+}
+
+p {
+    color: gray;
 }
 /* FINE MAIN */
 
 
 /* FOOTER */
 footer {
-    /* background-color: #8801fe;
-    height: 100px; */
+    text-align: center;
+}
+
+.heart-entity {
+    color: red;
 }
 /* FINE FOOTER */
